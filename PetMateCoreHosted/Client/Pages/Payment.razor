@@ -1,0 +1,76 @@
+﻿@page "/payment/{PriceId}"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Newtonsoft.Json;
+@using System.Text
+
+<PageTitle>Payment</PageTitle>
+
+<h1>Order Preview</h1>
+
+<section>
+    <div class="product">
+        <img id="dog-image" style="width: 500px; height: auto;" src="Funny_dog.jpg" alt="Dog image" />
+        <div class="description">
+            <h3>Dog for a day</h3>
+            <h5>$25.00</h5>
+        </div>
+    </div>
+    <button @onclick="CreateCheckoutSession">Checkout</button>
+</section>
+
+
+@code
+{
+
+    [Parameter]
+    public string PriceId { get; set; }
+
+    /* This function creates a checkout session when the checkout button is clicked, using the intermediary API. */
+    private async Task CreateCheckoutSession()
+    {
+        var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:7128/create-checkout-session");
+        var json = JsonConvert.SerializeObject(new { PriceId = PriceId });
+        request.Content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        try
+        {
+            var response = await Http.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                Console.WriteLine(jsonResponse);
+                var session = System.Text.Json.JsonSerializer.Deserialize<SessionResponse>(jsonResponse);
+                Console.WriteLine(session);
+
+                if (session != null && !string.IsNullOrWhiteSpace(session.url))
+                {
+                    NavigationManager.NavigateTo(session.url, forceLoad: true);  // If checkout session created correctly, redirect to payment link from Stripe.
+                }
+                else
+                {
+                    // Log error or handle cases where URL is null or empty
+                    Console.WriteLine("Session URL is null or empty.");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Failed to create session. Status code: {response.StatusCode}");
+                return;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Exception occurred: {ex.Message}");
+            return;
+        }
+
+    }
+
+    public class SessionResponse
+    {
+        public string url { get; set; }
+    }
+}
+

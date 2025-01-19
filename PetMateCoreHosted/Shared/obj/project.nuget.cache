@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zc8dqr+kL86IiL4+rka1QXLS4l+fomMsOAMkKI+y1ETfqIZyYCWInUlGH19Dqx4XyJg3rII6I2tfuTV4W79vrQ==",
+  "success": true,
+  "projectFilePath": "/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/PetMateCoreHosted.Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/williamseong/.nuget/packages/microsoft.aspnetcore.authorization/6.0.5/microsoft.aspnetcore.authorization.6.0.5.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.aspnetcore.components/6.0.5/microsoft.aspnetcore.components.6.0.5.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.aspnetcore.components.analyzers/6.0.5/microsoft.aspnetcore.components.analyzers.6.0.5.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.aspnetcore.components.forms/6.0.5/microsoft.aspnetcore.components.forms.6.0.5.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.aspnetcore.components.web/6.0.5/microsoft.aspnetcore.components.web.6.0.5.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.aspnetcore.metadata/6.0.5/microsoft.aspnetcore.metadata.6.0.5.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/microsoft.jsinterop/6.0.5/microsoft.jsinterop.6.0.5.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/syncfusion.blazor.buttons/25.1.39/syncfusion.blazor.buttons.25.1.39.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/syncfusion.blazor.core/25.1.39/syncfusion.blazor.core.25.1.39.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/syncfusion.blazor.data/25.1.39/syncfusion.blazor.data.25.1.39.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/syncfusion.blazor.inputs/25.1.39/syncfusion.blazor.inputs.25.1.39.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/syncfusion.blazor.popups/25.1.39/syncfusion.blazor.popups.25.1.39.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/syncfusion.blazor.spinner/25.1.39/syncfusion.blazor.spinner.25.1.39.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/syncfusion.blazor.splitbuttons/25.1.39/syncfusion.blazor.splitbuttons.25.1.39.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/syncfusion.licensing/25.1.39/syncfusion.licensing.25.1.39.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/Users/williamseong/.nuget/packages/system.text.json/6.0.5/system.text.json.6.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

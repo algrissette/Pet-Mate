@@ -1,0 +1,244 @@
+﻿@page "/pet-reservation/{PetId}/{Username}"
+@inject HttpClient Http
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using Amazon.DynamoDBv2.DataModel;
+@using System.Text.Json;
+@inject NavigationManager NavigationManager
+
+<div class="container">
+    <div class="my-4">
+        <button class="btn btn-secondary" @onclick="ReturnDetails">Back</button>
+        <h3 class="my-3">PET DETAILS</h3>
+    </div>
+
+    @if (pet == null)
+    {
+        <p>
+            <div style="text-align: center; align-content: center; margin-top: 50px;">
+                <img src="DogRunning2.gif" alt="Loading...">
+                <header>Loading...</header>
+            </div>
+        </p>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="@pet.PhotoUrl" class="card-img-top" alt="Pet Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Pet Details</h5>
+                        <p class="card-text"><strong>Owner:</strong> @pet.Username</p>
+                        <p class="card-text"><strong>Name:</strong> @pet.Name</p>
+                        <p class="card-text"><strong>Species:</strong> @pet.Species</p>
+                        @{
+                            DateTime startDate = DateTime.Parse(pet.StartDate);
+                            DateTime endDate = DateTime.Parse(pet.EndDate);
+                        }
+                        <p class="card-text"><strong>Start Date:</strong> @startDate.ToShortDateString()</p>
+                        <p class="card-text"><strong>End Date:</strong> @endDate.ToShortDateString()</p>
+                        <p class="card-text"><strong>Price:</strong> $@pet.Price</p>
+                        <p class="card-text"><strong>Address:</strong> @pet.Address</p>
+                        <p class="card-text"><strong>Description:</strong> @pet.Description</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <button class="btn btn-primary" @onclick="Cancel">Cancel</button>
+                        <button class="btn btn-success" @onclick="CreateCheckoutSession">Payment</button>
+                    </div>
+                </div>
+                <div>
+                    <p>Briefly describe why you want to spend some time with @pet.Name and what your plans are for your time together:</p>
+                    <textarea style="width: 100%; height: auto; min-height: 50%;"></textarea>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .container{
+        display: inline-block;
+    }
+</style>
+
+@code {
+
+    [Parameter]
+    public string PetId { get; set; }
+
+    [Parameter]
+    public string Username { get; set; }
+
+    public string MyUsername { get; set; }
+
+    private Pet pet;
+
+    public class Pet
+    {
+        [DynamoDBHashKey("id")]
+        public string? Id { get; set; }
+
+        [DynamoDBRangeKey("username")]
+        public string? Username { get; set; }
+
+        [DynamoDBProperty("name")]
+        public string? Name { get; set; }
+
+        [DynamoDBProperty("species")]
+        public string? Species { get; set; }
+
+        [DynamoDBProperty("description")]
+        public string? Description { get; set; }
+
+        [DynamoDBProperty("address")]
+        public string? Address { get; set; }
+
+        [DynamoDBProperty("photoUrl")]
+        public string? PhotoUrl { get; set; }
+
+        [DynamoDBProperty("startDate")]
+        public string? StartDate { get; set; }
+
+        [DynamoDBProperty("endDate")]
+        public string? EndDate { get; set; }
+
+        [DynamoDBProperty("price")]
+        public string? Price { get; set; }
+
+        [DynamoDBProperty("price_id")]
+        public string? PriceId { get; set; }
+
+        [DynamoDBProperty("status")]
+        public string? Status { get; set; } //Created -> Payment -> Reserved -> Fulfilled
+
+        [DynamoDBProperty("client")]
+        public string? Client { get; set; }
+
+        [DynamoDBProperty("comments")]
+        public List<string>? Comments { get; set; }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authenticationState.User;
+        if (user.Identity.IsAuthenticated)
+        {
+            MyUsername = user.Identity.Name;
+        }
+        Console.WriteLine($"Pet ID: {PetId}");
+        await LoadPetDetails();
+    }
+
+    private async Task LoadPetDetails()
+    {
+        try
+        {
+            // Make a GET request to your API endpoint
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Pet/{PetId}/{Username}");
+            Console.WriteLine(responseStream);
+            pet = await JsonSerializer.DeserializeAsync<Pet>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error loading products:", ex.Message);
+            pet = null;
+        }
+    }
+
+    private Task ReturnDetails()
+    {
+        NavigationManager.NavigateTo($"/pet-details/{PetId}/{Username}");
+        return Task.CompletedTask;
+    }
+
+    private Task Cancel()
+    {
+        NavigationManager.NavigateTo($"/");
+        return Task.CompletedTask;
+    }
+
+    /* This function creates a checkout session when the checkout button is clicked, using the intermediary API. */
+    private async Task CreateCheckoutSession()
+    {
+
+        pet.Status = "Payment";
+        pet.Client = MyUsername;
+
+        try
+        {
+
+            var json_upd = System.Text.Json.JsonSerializer.Serialize(pet);
+            var content_upd = new StringContent(json_upd, null, "application/json");
+
+            var response_upd = await Http.PutAsync("api/Pet", content_upd);
+            Console.WriteLine($"Pet to update status: {pet}");
+            Console.WriteLine("Update status response: ", response_upd);
+
+            if (response_upd.IsSuccessStatusCode)
+            {
+                var updatedPet = await response_upd.Content.ReadFromJsonAsync<Pet>();
+                Console.WriteLine("Pet updated successfully!");
+                // Handle the response as needed, redirect or inform the user
+            }
+            else
+            {
+                Console.Error.WriteLine($"Failed to update pet: {response_upd.StatusCode}");
+                return;
+                // Error handling
+            }
+
+            var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:7128/create-checkout-session");
+            string json = $"{{\n  \"PriceId\": \"{pet.PriceId}\"\n}}";
+            var content = new StringContent(json, null, "application/json");
+            request.Content = content;
+            var response = await Http.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                Console.WriteLine(jsonResponse);
+                var session = System.Text.Json.JsonSerializer.Deserialize<SessionResponse>(jsonResponse);
+                Console.WriteLine(session);
+
+                if (session != null && !string.IsNullOrWhiteSpace(session.url))
+                {
+                    NavigationManager.NavigateTo(session.url, forceLoad: true);  // If checkout session created correctly, redirect to payment link from Stripe.
+                }
+                else
+                {
+                    // Log error or handle cases where URL is null or empty
+                    Console.WriteLine("Session URL is null or empty.");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Failed to create session. Status code: {response.StatusCode}");
+                return;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Exception occurred: {ex.Message}");
+            return;
+        }
+
+    }
+
+    public class SessionResponse
+    {
+        public string url { get; set; }
+    }
+
+    private Task ReturnHome()
+    {
+        NavigationManager.NavigateTo("/");
+        return Task.CompletedTask;
+    }
+
+}

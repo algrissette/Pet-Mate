@@ -1,0 +1,129 @@
+﻿@page "/cancel-page"
+@inject HttpClient Http
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using Amazon.DynamoDBv2.DataModel;
+@using System.Text.Json;
+@inject NavigationManager NavigationManager
+
+<PageTitle>Transcation Cancelled!</PageTitle>
+
+<h1>Transcation Cancelled!</h1>
+
+<section>
+    <p>Don't leave your pet behind!'</p>
+</section>
+
+@code {
+
+    public string Username { get; set; } = "";
+
+    public class Pet
+    {
+        [DynamoDBHashKey("id")]
+        public string? Id { get; set; }
+
+        [DynamoDBRangeKey("username")]
+        public string? Username { get; set; }
+
+        [DynamoDBProperty("name")]
+        public string? Name { get; set; }
+
+        [DynamoDBProperty("species")]
+        public string? Species { get; set; }
+
+        [DynamoDBProperty("description")]
+        public string? Description { get; set; }
+
+        [DynamoDBProperty("address")]
+        public string? Address { get; set; }
+
+        [DynamoDBProperty("photoUrl")]
+        public string? PhotoUrl { get; set; }
+
+        [DynamoDBProperty("startDate")]
+        public string? StartDate { get; set; }
+
+        [DynamoDBProperty("endDate")]
+        public string? EndDate { get; set; }
+
+        [DynamoDBProperty("price")]
+        public string? Price { get; set; }
+
+        [DynamoDBProperty("price_id")]
+        public string? PriceId { get; set; }
+
+        [DynamoDBProperty("status")]
+        public string? Status { get; set; } //Created -> Payment -> Reserved -> Fulfilled
+
+        [DynamoDBProperty("client")]
+        public string? Client { get; set; }
+
+        [DynamoDBProperty("comments")]
+        public List<string>? Comments { get; set; }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authenticationState.User;
+        if (user.Identity.IsAuthenticated)
+        {
+            Username = user.Identity.Name;
+        }
+
+        Pet pet = await LoadPetDetails();
+
+        pet.Status = "Created";
+        pet.Client = "";
+
+        try
+        {
+            var json_upd = System.Text.Json.JsonSerializer.Serialize(pet);
+            var content_upd = new StringContent(json_upd, null, "application/json");
+
+            var response_upd = await Http.PutAsync("api/Pet", content_upd);
+
+            if (response_upd.IsSuccessStatusCode)
+            {
+                var updatedPet = await response_upd.Content.ReadFromJsonAsync<Pet>();
+                Console.WriteLine("Pet updated successfully!");
+                // Handle the response as needed, redirect or inform the user
+            }
+            else
+            {
+                Console.Error.WriteLine($"Failed to update pet: {response_upd.StatusCode}");
+                // Error handling
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Failed to update pet");
+        }
+    }
+
+    private async Task<Pet> LoadPetDetails()
+    {
+        try
+        {
+            // Make a GET request to your API endpoint
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Pet");
+            Console.WriteLine(responseStream);
+            List<Pet> pets = await JsonSerializer.DeserializeAsync<List<Pet>>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            Pet pet_u;
+            foreach(Pet p in pets)
+            {
+                if(p.Client == Username && p.Status == "Payment")
+                {
+                    return p;
+                }
+            }
+
+            return null;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error loading products:", ex.Message);
+            return null;
+        }
+    }
+}

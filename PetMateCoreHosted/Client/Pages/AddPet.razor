@@ -1,0 +1,613 @@
+@page "/post-pet"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@attribute [Authorize]
+@inject HttpClient Http
+@using System.Text.Json;
+@using Microsoft.AspNetCore.Components.Authorization
+@attribute [Authorize]
+@inject HttpClient Http
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@using Amazon.DynamoDBv2.DataModel;
+@using Newtonsoft.Json;
+@using System.Text
+@using Amazon;
+@using Amazon.Runtime;
+@using Amazon.S3;
+@using Amazon.S3.Model;
+
+
+<h3>Post a Pet</h3>
+
+@if (my_pets == null || UserAddress == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    if (UserAddress.UserAddress == "")
+    {
+        <p><em>Please Add an Address in Your Proile</em></p>
+    }
+    else
+    { 
+        <select @onchange="OnPetSelected">
+            <option value="">Select a pet</option>
+            @foreach (var pet in my_pets)
+            {
+                <option value="@pet.Id">@pet.Name</option>
+            }
+        </select>
+
+        <EditForm Model="FormModel" OnSubmit="HandleFormSubmit">
+            <div class="form-group">
+                <label for="id">ID:</label>
+                <InputText id="id" @bind-Value="id" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <InputText id="name" @bind-Value="FormModel.Name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="species">Species:</label>
+                <InputText id="species" @bind-Value="FormModel.Species" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <InputTextArea id="description" @bind-Value="FormModel.Description" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="photoUrl">Photo:</label>
+                @if (selected_pet != null)
+                    {
+                    <p>The photo is already saved!</p>
+                    }
+                    else
+                    {
+            <InputFile id="photo" OnChange="HandleFileSelected" class="form-control"/>
+                    }
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <InputText id="address" @bind-Value="FormModel.Address" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label for="startDate">Start Date:</label>
+                <InputDate id="startDate" @bind-Value="FormModel.StartDate" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="endDate">End Date:</label>
+                <InputDate id="endDate" @bind-Value="FormModel.EndDate" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="price">Price:</label>
+                <InputText id="price" @bind-Value="FormModel.Price" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </EditForm>
+    }
+}
+
+@code {
+
+    string id;
+    bool new_pet = true;
+
+    List<Pet> my_pets;
+    Pet selected_pet;
+    //string user_address;
+
+    public class Address
+    {
+        public string UserAddress { get; set; }
+    }
+
+    public Address UserAddress { get; set; } = new Address();
+    public PetForm FormModel { get; set; } = new PetForm();
+    public string Username { get; set; } = "";
+    string photoUrl = "";
+    // reads values of form and calls CreateProduct() function using fields
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authenticationState.User;
+        if (user.Identity.IsAuthenticated)
+        {
+            Username = user.Identity.Name;
+            await LoadUserAddress(Username);
+
+            // Fetch the user's address
+            //var addressResponse = await Http.GetFromJsonAsync<Address>($"https://localhost:7128/api/Address/{Username}");
+            //if (addressResponse != null)
+            //{
+            //    FormModel.Address = addressResponse.UserAddress;
+            //    user_address = addressResponse.UserAddress;
+            //}
+            await LoadPets();
+            await LoadId();
+        }
+
+    }
+
+    private async Task LoadUserAddress(string username)
+    {
+        try
+        {
+            var response = await Http.GetFromJsonAsync<Address>($"https://localhost:7128/api/Address/{username}");
+            if (response != null)
+            {
+                Console.WriteLine(response);
+                UserAddress = response;
+                FormModel.Address = UserAddress.UserAddress;
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            UserAddress.UserAddress = "";
+        }
+
+    }
+
+    private async Task OnPetSelected(ChangeEventArgs e)
+    {
+        var petId = e.Value.ToString();
+        if (!string.IsNullOrEmpty(petId))
+        {
+            new_pet = false;
+            selected_pet = my_pets.FirstOrDefault(p => p.Id == petId);
+            if (selected_pet != null)
+            {
+                FormModel = new PetForm
+                {
+                    Name = selected_pet.Name,
+                    Species = selected_pet.Species,
+                    Description = selected_pet.Description,
+                    Address = selected_pet.Address,
+                    PhotoUrlString = selected_pet.PhotoUrl,
+                    StartDate = DateTime.Parse(selected_pet.StartDate),
+                    EndDate = DateTime.Parse(selected_pet.EndDate),
+                    Price = selected_pet.Price
+                };
+                id = selected_pet.Id;
+                // Optionally update photoUrl if needed
+                photoUrl = selected_pet.PhotoUrl;
+            }
+        }
+        else
+        {
+            new_pet = true;
+            FormModel = new PetForm
+            {
+                Name = "Name",
+                Species = "Species",
+                Description = "Description",
+                Address = UserAddress.UserAddress,
+                PhotoUrl = null,
+                StartDate = DateTime.Now,
+                EndDate = DateTime.Now,
+                Price = "Price"
+            };
+            await LoadId();
+        }
+    }
+
+    public class Pet
+    {
+        [DynamoDBHashKey("id")]
+        public string? Id { get; set; }
+
+        [DynamoDBRangeKey("username")]
+        public string? Username { get; set; }
+
+        [DynamoDBProperty("name")]
+        public string? Name { get; set; }
+
+        [DynamoDBProperty("species")]
+        public string? Species { get; set; }
+
+        [DynamoDBProperty("description")]
+        public string? Description { get; set; }
+
+        [DynamoDBProperty("address")]
+        public string? Address { get; set; }
+
+        [DynamoDBProperty("photoUrl")]
+        public string? PhotoUrl { get; set; }
+
+        [DynamoDBProperty("startDate")]
+        public string? StartDate { get; set; }
+
+        [DynamoDBProperty("endDate")]
+        public string? EndDate { get; set; }
+
+        [DynamoDBProperty("price")]
+        public string? Price { get; set; }
+
+        [DynamoDBProperty("price_id")]
+        public string? PriceId { get; set; }
+
+        [DynamoDBProperty("status")]
+        public string? Status { get; set; } //Created -> Payment -> Reserved -> Fulfilled
+
+        [DynamoDBProperty("client")]
+        public string? Client { get; set; }
+
+        [DynamoDBProperty("comments")]
+        public List<string>? Comments { get; set; }
+    }
+
+    private async Task LoadPets()
+    {
+        try
+        {
+            // Make a GET request to your API endpoint
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Pet");
+            Console.WriteLine(responseStream);
+            List<Pet> pets = await System.Text.Json.JsonSerializer.DeserializeAsync<List<Pet>>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            List<Pet> my_orders = new List<Pet>();
+            foreach (Pet p in pets)
+            {
+                if (p.Username != "" && p.Username == Username)
+                {
+                    my_orders.Add(p);
+                }
+            }
+
+            my_pets = my_orders;
+            return;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error loading pets: " + ex.Message + ex.Source);
+            my_pets = new List<Pet>();
+            return;
+        }
+    }
+
+    private async Task LoadId()
+    {
+        int max_id = 0;
+
+        try
+        {
+            // Make a GET request to your API endpoint
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Pet");
+            Console.WriteLine(responseStream);
+            List<Pet> pets = await System.Text.Json.JsonSerializer.DeserializeAsync<List<Pet>>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            if (pets == null || pets.Count == 0)
+            {
+                id = 1.ToString();
+                return;
+            }
+            else
+            {
+                foreach (Pet p in pets)
+                {
+                    Console.WriteLine(p.Id);
+                    if (int.Parse(p.Id) > max_id)
+                    {
+                        max_id = int.Parse(p.Id);
+                    }
+                }
+
+                id = (max_id + 1).ToString();
+            }
+
+
+            return;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error getting max id:", ex.Message);
+            return;
+        }
+    }
+
+    // Modify the HandleFileSelected method to save the file with a .png extension
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        if (file != null)
+        {
+            var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            var user = authenticationState.User;
+            var userEmail = user.Identity.Name;
+            Console.WriteLine(file);
+
+
+            // Find the index of the "@" symbol
+            int atIndex = userEmail.IndexOf('@');
+
+            // Extract the substring before the "@" symbol
+            string username = atIndex != -1 ? userEmail.Substring(0, atIndex) : userEmail;
+
+            Console.WriteLine(username);
+
+            Random random = new Random();
+            int randomNumber = random.Next(1000, 10000);
+            var fileName = $"{username}{randomNumber}PetListing.png";
+            var tempFilePath = Path.Combine(Path.GetTempPath(), fileName);
+
+            if (file != null)
+            {
+                Console.WriteLine("there is an image here");
+                using (var stream = new FileStream(tempFilePath, FileMode.Create))
+                {
+                    await file.OpenReadStream().CopyToAsync(stream);
+                }
+
+                string objectName = user.Identity.Name + "petListing";
+
+                // Pass tempFilePath to UploadFileAsync
+                await UploadFileAsync(tempFilePath, "petmate392", objectName);
+
+                photoUrl = $"https://petmate392.s3.amazonaws.com/{username}{randomNumber}PetListing.png";
+            }
+            else
+            {
+                Console.WriteLine("No image here");
+            }
+        }
+    }
+
+
+
+    public async Task HandleFormSubmit()
+    {
+        var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authenticationState.User;
+
+        if(new_pet == false)
+        {
+            Pet pet_to_save = selected_pet;
+            pet_to_save.PhotoUrl = FormModel.PhotoUrlString;
+            pet_to_save.StartDate = FormModel.StartDate.ToString("o");
+            pet_to_save.EndDate = FormModel.EndDate.ToString("o");
+            pet_to_save.Address = FormModel.Address;
+            pet_to_save.Price = FormModel.Price;
+            pet_to_save.Description = FormModel.Description;
+            pet_to_save.Status = "Created";
+
+            try
+            {
+                var json_upd = System.Text.Json.JsonSerializer.Serialize(pet_to_save);
+                var content_upd = new StringContent(json_upd, null, "application/json");
+
+                var response_upd = await Http.PutAsync("api/Pet", content_upd);
+
+                Console.WriteLine($"Pet to update status: {pet_to_save}");
+                Console.WriteLine("Update status response: ", response_upd);
+
+                if (response_upd.IsSuccessStatusCode)
+                {
+                    var updatedPet = await response_upd.Content.ReadFromJsonAsync<Pet>();
+                    Console.WriteLine("Pet updated successfully!");
+                    // Handle the response as needed, redirect or inform the user
+                }
+                else
+                {
+                    Console.Error.WriteLine($"Failed to update pet: {response_upd.StatusCode}");
+                    // Error handling
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Failed to update pet");
+            }
+            NavigationManager.NavigateTo("/");
+        }
+        else
+        {
+            var photoFile = FormModel.PhotoUrl;
+
+            Console.WriteLine(photoFile);
+
+            var tempFilePath = Path.GetTempFileName();
+
+            if (photoFile != null)
+            {
+                Console.WriteLine("there is an image here");
+            }
+            else
+            {
+                Console.WriteLine("No image here");
+            }
+            try
+            {
+                string id_s = id;
+                string username = user.Identity.Name;
+                string name = FormModel.Name;
+                string species = FormModel.Species;
+                string PhotoUrlString = photoUrl;
+                string description = FormModel.Description;
+                string address = FormModel.Address;
+                DateTime startDate = FormModel.StartDate;
+                DateTime endDate = FormModel.EndDate;
+                string price = FormModel.Price;
+                List<string> comments = new List<string>();
+
+                string price_id = await CreatePrice(long.Parse(price), name);
+                Console.WriteLine(price_id);
+
+                if (price_id != null)
+                {
+                    await CreatePet(id_s, username, name, species, description, PhotoUrlString, address, startDate.ToString("o"), endDate.ToString("o"), price, price_id, comments);
+                }
+                else
+                {
+                    Console.WriteLine("Pet not created");
+                }
+
+                NavigationManager.NavigateTo("/");
+
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions if any
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+            finally
+            {
+                // Make sure to delete the temporary file when done
+                if (File.Exists(tempFilePath))
+                {
+                    File.Delete(tempFilePath);
+                }
+            }
+        }
+
+
+
+    }
+
+    // uses fields as payload to HTTP POST request, ENSURE WEB API IS RUNNING SO REQUEST IS RECEIVED, will add product to our DynamoDB Table
+    //protected async Task CreateProduct(string id, string barcode, string name, string description, decimal price)
+    //{
+    //    var client = new HttpClient();
+    //    // posting into API endpoint
+    //    var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:5039/api/Products");
+    //    // format json using fields as payload into post request
+    //    string json = $"{{\n  \"id\": \"{id}\",\n  \"barcode\": \"{barcode}\",\n  \"name\": \"{name}\",\n  \"description\": \"{description}\",\n  \"price\": {price}\n}}";
+    //    var content = new StringContent(json, null, "application/json");
+    //    request.Content = content;
+    //    // sends asynch request, awaits success
+    //    var response = await client.SendAsync(request);
+    //    response.EnsureSuccessStatusCode();
+    //    Console.WriteLine(await response.Content.ReadAsStringAsync());
+    //}
+
+    protected async Task CreatePet(string id, string username, string name, string species, string description, string photoUrl, string address, string startDate, string endDate, string price, string price_id, List<string> comments)
+    {
+        try
+        {
+            var client = new HttpClient();
+            // posting into API endpoint
+            var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:7128/api/Pet");
+            // format json using fields as payload into post request
+            //string json = $"{{\n  \"id\": \"{id}\",\n  \"username\": \"{username}\",\n  \"name\": \"{name}\",\n  \"species\": \"{species}\",\n  \"description\": \"{description}\",\n  \"photoUrl\": \"{photoUrl}\",\n  \"address\": \"{address}\",\n  \"startDate\": \"{startDate}\",\n  \"endDate\": \"{endDate}\",\n  \"price\": \"{price}\",\n \"PriceId\": \"{price_id}\", \n \"status\": \"{"Created"}\", \n \"client\": \"{""}\", \n \"Comments\": \"{comments}\" \n}}";
+            string json = System.Text.Json.JsonSerializer.Serialize(new
+            {
+                id = id,
+                username = username,
+                name = name,
+                species = species,
+                description = description,
+                photoUrl = photoUrl,
+                address = address,
+                startDate = startDate,
+                endDate = endDate,
+                price = price,
+                priceId = price_id,
+                status = "Created",
+                client = "",
+                comments = comments
+            }, new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
+            var content = new StringContent(json, null, "application/json");
+            Console.WriteLine(content);
+            request.Content = content;
+            // sends asynch request, awaits success
+            var response = await client.SendAsync(request);
+            response.EnsureSuccessStatusCode();
+            Console.WriteLine(await response.Content.ReadAsStringAsync());
+        }
+        catch (Exception ex)
+        {
+            // Handle the exception here
+            Console.WriteLine($"An error occurred: {ex.Message}");
+        }
+    }
+
+
+    protected async Task<string> CreatePrice(long unitAmount, string name)
+    {
+        var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:7128/api/price");
+        string json = $"{{\n  \"Name\": \"{name}\",\n  \"Price\": \"{unitAmount}\"\n}}";
+        var content = new StringContent(json, null, "application/json");
+        request.Content = content;
+
+        try
+        {
+            var response = await Http.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                var responseObject = System.Text.Json.JsonSerializer.Deserialize<Dictionary<string, string>>(responseContent);
+
+                if (responseObject != null)
+                {
+                    var priceId = responseObject["priceId"];
+                    Console.WriteLine($"Price ID: {priceId}");
+                    return priceId;
+                }
+                else
+                {
+                    Console.WriteLine("Price ID not found in response.");
+                    return null;
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Failed to create price. Status code: {response.StatusCode}");
+                return null;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Exception occurred: {ex.Message}");
+            return null;
+        }
+    }
+
+
+    protected async Task AddAddress(string username, string address)
+    {
+        var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:7128/api/Address");
+        var json = $"{{ \"username\": \"{username}\", \"UserAddress\": \"{address}\" }}";
+        request.Content = new StringContent(json, null, "application/json");
+
+        var response = await Http.SendAsync(request);
+
+        if (response.IsSuccessStatusCode)
+        {
+            var responseContent = await response.Content.ReadAsStringAsync();
+            Console.WriteLine(responseContent);
+        }
+        else
+        {
+            // Handle unsuccessful request
+            Console.WriteLine("Failed to add address. Status code: " + response.StatusCode);
+        }
+    }
+
+
+    private async Task UploadFileAsync(string filePath, string bucketName, string objectKey)
+    {
+        try
+        {
+            var client = new HttpClient();
+            var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:7128/api/files/upload?bucketName=petmate392");
+            var content = new MultipartFormDataContent();
+            content.Add(new StreamContent(File.OpenRead(filePath)), "file", Path.GetFileName(filePath));
+            request.Content = content;
+            var response = await client.SendAsync(request);
+            response.EnsureSuccessStatusCode();
+            Console.WriteLine(await response.Content.ReadAsStringAsync());
+        }
+        catch (AmazonS3Exception ex)
+        {
+            Console.WriteLine($"Amazon S3 Exception: {ex.Message}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An unexpected error occurred: {ex.Message}");
+        }
+    }
+
+
+
+}
+

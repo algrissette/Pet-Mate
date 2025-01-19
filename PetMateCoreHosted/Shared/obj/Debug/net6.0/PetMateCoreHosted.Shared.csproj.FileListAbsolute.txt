@@ -1,0 +1,72 @@
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.deps.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfoInputs.cache
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfo.cs
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.CoreCompileInputs.cache
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/obj/Debug/net6.0/refint/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/obj/Debug/net6.0/ref/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.AssemblyReference.cache
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.deps.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.AssemblyReference.cache
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfoInputs.cache
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfo.cs
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.CoreCompileInputs.cache
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/refint/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/ref/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.deps.json
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.AssemblyReference.cache
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfoInputs.cache
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfo.cs
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.CoreCompileInputs.cache
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/refint/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/ref/PetMateCoreHosted.Shared.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.deps.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfoInputs.cache
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfo.cs
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.CoreCompileInputs.cache
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/refint/PetMateCoreHosted.Shared.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/ref/PetMateCoreHosted.Shared.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.AssemblyReference.cache
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.deps.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.AssemblyReference.cache
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfoInputs.cache
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfo.cs
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.CoreCompileInputs.cache
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/refint/PetMateCoreHosted.Shared.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/ref/PetMateCoreHosted.Shared.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.deps.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.AssemblyReference.cache
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfoInputs.cache
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.AssemblyInfo.cs
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.csproj.CoreCompileInputs.cache
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/refint/PetMateCoreHosted.Shared.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Shared/obj/Debug/net6.0/ref/PetMateCoreHosted.Shared.dll

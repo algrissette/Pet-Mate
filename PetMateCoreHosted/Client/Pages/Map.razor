@@ -1,0 +1,140 @@
+﻿@page "/map"
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@using Amazon.DynamoDBv2.DataModel;
+@attribute [Authorize]
+@using System.Text.Json;
+@inject HttpClient Http
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+
+<PageTitle>Map</PageTitle>
+
+<div class="button-container">
+    <button class="toggle-button" @onclick="ShowList">List View</button>
+    <button class="toggle-button" @onclick="(args) => { assign(); NavigateToDetails(identification, name); }">See Details</button>
+</div>
+<style>
+    .heading {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 36px;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .toggle-button {
+        background-color: #4cb8c4;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 5px;
+    }
+
+        .toggle-button:hover {
+            background-color: #3bafbd;
+        }
+</style>
+
+<div id="map" style="height: 600px;"></div>
+@code {
+
+    @* process for getting the the users address so that when the map is opened it opens where the user sets their address *@
+    static string identification = "";
+    static string name = "";
+    public string Username { get; set; } = "";
+
+    public class Address
+    {
+        public string UserAddress { get; set; }
+    }
+
+    public Address UserAddress { get; set; } = new Address();
+
+    @* Method to run after component has been rendered *@
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+
+        var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authenticationState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            Username = user.Identity.Name;
+            await LoadUserAddress(Username);
+        }
+
+        Task.Delay(1000);
+
+        @* Checks if this is the first time the component has been rendered*@
+        if (firstRender)
+        {
+            @* Run the javascrip code in wwwroot/js/site.js*@
+            await JSRuntime.InvokeVoidAsync("initializeMap", UserAddress.UserAddress);
+        }
+    }
+
+    @* get the users address *@
+    private async Task LoadUserAddress(string username)
+    {
+        Console.WriteLine("Getting my address");
+        try
+        {
+            var response = await Http.GetFromJsonAsync<Address>($"https://localhost:7128/api/Address/{username}");
+            if (response != null)
+            {
+                UserAddress = response;
+                Console.WriteLine("Here is my address" + UserAddress.UserAddress);
+
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            UserAddress.UserAddress = "";
+        }
+    }
+
+    @* Function that is callable from the js file that allows for the blazor app to know which marker has been clicked in the js file *@
+    [JSInvokable]
+    public static Task Panel(string id, string username)
+    {
+
+        identification = id;
+        name = username;
+        return Task.CompletedTask;
+
+    }
+
+    @* assigns the id and username values for the button to direct to the correct pet details page*@
+    public void assign()
+    {
+        StateHasChanged();
+    }
+
+    @*Button to navigate to list pet page*@
+    private Task ShowList()
+    {
+        NavigationManager.NavigateTo("/");
+        return Task.CompletedTask;
+    }
+
+    @*Button to navigate to pet details page*@
+    private void NavigateToDetails(string petId, string username)
+    {
+        if (petId != "" && username != "")
+        {
+            NavigationManager.NavigateTo($"/pet-details/{petId}/{username}");
+
+        }
+    }
+}

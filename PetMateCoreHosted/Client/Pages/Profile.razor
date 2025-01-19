@@ -1,0 +1,621 @@
+﻿@page "/profile"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@using Amazon.DynamoDBv2.DataModel;
+@attribute [Authorize]
+@using System.Text.Json;
+@inject HttpClient Http
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@inject ISnackbar Snackbar
+@using System.Globalization
+@using System
+
+
+@if (UserAddress == null || orders == null)
+{
+    <p>
+        <div style="text-align: center; align-content: center; margin-top: 50px;">
+            <img src="DogRunning2.gif" alt="Loading...">
+            <header>Loading...</header>
+        </div>
+    </p>
+}
+else
+{
+    <div class="container profile-container">
+        <div class="row">
+            <div class="col-md-4" style="border: thin solid; display: inline-flex; align-items: flex-start;">
+                <!-- Profile Information -->
+                <div class="info" style="margin-top: 10px; margin-left: 10px; width: 100%">
+                    <div class="profile-info" style="text-align: left">
+                        <h3 class="profile-username">@Username</h3>
+                    </div>
+
+                    <!-- Add a New Address Form -->
+                    <div style="display: flex; align-items: flex-start; margin-top: 10px;">
+                        <div style="margin-right: 10px;">Address:</div>
+                        <div style="position: relative; flex: 1;">
+                            <EditForm Model="FormModel">
+                                <InputText @bind-Value="FormModel.UserAddress" class="form-control" style="font-size: 12px; width: 100%; height: 100px; padding: 0; margin: 0; position: absolute; top: 0; left: 0; line-height: 1; overflow-y: auto; overflow-x: hidden;" />
+                            </EditForm>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-left: auto; align-self: flex-end;margin-bottom: 5px; border:thin solid; padding: 5px">
+                    <button type="submit" @onclick="HandleFormSubmit">Update</button>
+                </div>
+            </div>
+
+            <!-- My Performance Ratings -->
+            <div class="col-md-4">
+                <h3 class="profile-heading">My Performance</h3>
+                <div style="display: flex; justify-content: space-between;">
+                    <div style="flex: 1;">
+                        <form>
+                            <label for="temperament" style="margin-bottom: 10px; margin-top: 10px; font-weight: bold">Temperament:</label><br>
+                            <label for="attention" style="margin-bottom: 10px; margin-top: 10px; font-weight: bold">Attention:</label><br>
+                            <label for="activity" style="margin-bottom: 10px; margin-top: 8px; font-weight: bold">Activity:</label><br>
+                            <label for="enjoyment" style="margin-bottom: 10px; margin-top: 8px; font-weight: bold">Enjoyment:</label>
+                        </form>
+                    </div>
+
+                    <div style="flex: 1;">
+                        <form>
+                            <SfRating id="temperament" @bind-Value="temperament" Precision="PrecisionType.Half" ReadOnly="true"></SfRating><br>
+                            <SfRating id="attention" @bind-Value="attention" Precision="PrecisionType.Half" ReadOnly="true"></SfRating><br>
+                            <SfRating id="activity" @bind-Value="activity" Precision="PrecisionType.Half" ReadOnly="true"></SfRating><br>
+                            <SfRating id="enjoyment" @bind-Value="enjoyment" Precision="PrecisionType.Half" ReadOnly="true"></SfRating>
+                        </form>
+                    </div>
+                    <div>
+                        <form>
+                            <p class="card-text"><strong>Number of Reviews:</strong> @count</p>
+                        </form>
+                    </div> 
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <h3 class="profile-heading">Comments</h3>
+                <MudTable Style="max-height: 70%; overflow: auto;" Items="reviews" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+                    <RowTemplate>
+                        <MudTd>@context.Item1: @context.Item2</MudTd>
+                    </RowTemplate>
+                </MudTable>
+            </div>
+
+            <br />
+            <br />
+
+
+            <h3 class="profile-heading">Your postings</h3>
+
+            <div class="table-spacing">
+                <MudTable Items="orders" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+
+                    <HeaderContent>
+                        @*<MudTh>Owner</MudTh>*@
+                        <MudTh>Name</MudTh>
+                        @*<MudTh>Species</MudTh>*@
+                        @*<MudTh>Address</MudTh>*@
+                        <MudTh>Photo</MudTh>
+                        <MudTh>Start Date</MudTh>
+                        <MudTh>End Date</MudTh>
+                        <MudTh>Price</MudTh>
+
+                    </HeaderContent>
+                    <RowTemplate>
+                        @*<MudTd DataLabel="Nr">@context.Username</MudTd>*@
+                        <MudTd DataLabel="Name">@context.Name</MudTd>
+                        @*<MudTd DataLabel="Species">@context.Species</MudTd>
+                        <MudTd DataLabel="Address">@context.Address</MudTd>*@
+                        <MudTd DataLabel="Photo">
+                            <img src="@context.PhotoUrl" alt="Pet Image" class="img-fluid rounded-circle" style="max-width: 50px; max-height: 50px;" />
+                        </MudTd>
+                        <MudTd DataLabel="StartDate">
+                            @{
+                                DateTime startDate;
+                                if (DateTime.TryParseExact(@context.StartDate, "yyyy-MM-dd'T'HH:mm:ss.fffffff", CultureInfo.InvariantCulture, DateTimeStyles.None, out startDate))
+                                {
+                                    @startDate.ToString("MM-dd-yyyy")
+                                }
+                                else
+                                {
+                                    <text>Data Not Available</text>
+                                }
+                            }
+                        </MudTd>
+                        <MudTd DataLabel="EndDate">
+                            @{
+                                DateTime endDate;
+                                if (DateTime.TryParseExact(@context.EndDate, "yyyy-MM-dd'T'HH:mm:ss.fffffff", CultureInfo.InvariantCulture, DateTimeStyles.None, out endDate))
+                                {
+                                    @endDate.ToString("MM-dd-yyyy")
+                                }
+                                else
+                                {
+                                    <text>Data Not Available</text>
+                                }
+                            }
+                        </MudTd>
+                        <MudTd DataLabel="Price">$@context.Price</MudTd>
+                        <MudTd>
+                            @{
+
+                                if (Convert.ToDateTime(context.StartDate) >= DateTime.Today)
+                                {
+                                    <button @onclick="@(async () => await DeletePet(context.Id,context.Username, context.Address))" class="btn btn-danger">Delete</button>
+                                }
+                            }
+
+                        </MudTd>
+
+                    </RowTemplate>
+                </MudTable>
+                <br />
+                <br />
+                <button @onclick="@(async () => NavigatePost())" class="btn btn-secondary">Post a Pet</button>
+                <br />
+                <br />
+                <h3 class="profile-heading">Your fosters!</h3>
+                <MudTable Items="fosters" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+
+                    <HeaderContent>
+                        <MudTh>Owner</MudTh>
+                        <MudTh>Name</MudTh>
+                        <MudTh>Species</MudTh>
+                        <MudTh>Address</MudTh>
+                        <MudTh>Photo</MudTh>
+                        <MudTh>Start Date</MudTh>
+                        <MudTh>End Date</MudTh>
+                        <MudTh>Price</MudTh>
+
+                    </HeaderContent>
+                    <RowTemplate>
+                        <MudTd DataLabel="Nr">@context.Username</MudTd>
+                        <MudTd DataLabel="Name">@context.Name</MudTd>
+                        <MudTd DataLabel="Species">@context.Species</MudTd>
+                        <MudTd DataLabel="Address">@context.Address</MudTd>
+                        <MudTd DataLabel="Photo">
+                            <img src="@context.PhotoUrl" alt="Pet Image" class="img-fluid rounded-circle" style="max-width: 50px; max-height: 50px;" />
+                        </MudTd>
+                        <MudTd DataLabel="StartDate">
+                            @{
+                                DateTime startDate;
+                                if (DateTime.TryParseExact(@context.StartDate, "yyyy-MM-dd'T'HH:mm:ss.fffffff", CultureInfo.InvariantCulture, DateTimeStyles.None, out startDate))
+                                {
+                                    @startDate.ToString("MM-dd-yyyy")
+                                }
+                                else
+                                {
+                                    <text>Data Not Available</text>
+                                }
+                            }
+                        </MudTd>
+                        <MudTd DataLabel="EndDate">
+                            @{
+                                DateTime endDate;
+                                if (DateTime.TryParseExact(@context.EndDate, "yyyy-MM-dd'T'HH:mm:ss.fffffff", CultureInfo.InvariantCulture, DateTimeStyles.None, out endDate))
+                                {
+                                    @endDate.ToString("MM-dd-yyyy")
+                                }
+                                else
+                                {
+                                    <text>Data Not Available</text>
+                                }
+                            }
+                        </MudTd>
+                        <MudTd DataLabel="Price">$@context.Price</MudTd>
+                        <MudTd>
+                            @{
+                                if (Convert.ToDateTime(context.StartDate) >= DateTime.Today)
+                                {
+
+                                    <button @onclick="@(async () => CancelPet(context.Username, context.Id))" class="btn btn-secondary">Cancel</button>
+
+                                }
+
+                            }
+                        </MudTd>
+                        <MudTd>
+                            <button @onclick="@(async () =>  NavigateToReview(context.Username, context.Id))" class="btn btn-secondary">Review</button>
+                        </MudTd>
+
+                    </RowTemplate>
+                </MudTable>
+            </div>
+        </div>
+        <br />
+        <br />
+    </div>
+
+
+
+    <style>
+        /* Add spacing between tables */
+        .table-spacing {
+            margin-top: 20px; /* Adjust as needed */
+        }
+    </style>
+}
+
+@code {
+    private bool _hidePosition;
+    private bool _loading;
+    private IEnumerable<Pet> Elements = new List<Pet>();
+
+
+
+    private List<Pet> orders;
+    private List<Pet> fosters;
+    private List<(string, string)> reviews = new List<(string, string)>();
+
+    public class Pet
+    {
+        [DynamoDBHashKey("id")]
+        public string? Id { get; set; }
+
+        [DynamoDBRangeKey("username")]
+        public string? Username { get; set; }
+
+        [DynamoDBProperty("name")]
+        public string? Name { get; set; }
+
+        [DynamoDBProperty("species")]
+        public string? Species { get; set; }
+
+        [DynamoDBProperty("description")]
+        public string? Description { get; set; }
+
+        [DynamoDBProperty("address")]
+        public string? Address { get; set; }
+
+        [DynamoDBProperty("photoUrl")]
+        public string? PhotoUrl { get; set; }
+
+        [DynamoDBProperty("startDate")]
+        public string? StartDate { get; set; }
+
+        [DynamoDBProperty("endDate")]
+        public string? EndDate { get; set; }
+
+        [DynamoDBProperty("price")]
+        public string? Price { get; set; }
+
+        [DynamoDBProperty("price_id")]
+        public string? PriceId { get; set; }
+
+        [DynamoDBProperty("status")]
+        public string? Status { get; set; } //Created -> Payment -> Reserved -> Fulfilled
+
+        [DynamoDBProperty("client")]
+        public string? Client { get; set; }
+
+        [DynamoDBProperty("comments")]
+        public List<string>? Comments { get; set; }
+    }
+
+
+    public class Address
+    {
+        public string UserAddress { get; set; }
+    }
+
+    public class Review
+    {
+        [DynamoDBHashKey("username")]
+        public string? Username { get; set; }
+
+        [DynamoDBProperty("temperament")]
+        public double? Temperament { get; set; } = 0;
+
+        [DynamoDBProperty("attention")]
+        public double? Attention { get; set; }
+
+        [DynamoDBProperty("activity")]
+        public double? Activity { get; set; }
+
+        [DynamoDBProperty("enjoyment")]
+        public double? Enjoyment { get; set; }
+
+        [DynamoDBProperty("comments")]
+        public string? Comments { get; set; } // Add comments property
+
+        [DynamoDBProperty("count")]
+        public double? Count { get; set; } = 0;
+    }
+
+
+    double temperament;
+    double attention;
+    double activity;
+    double enjoyment;
+    double count;
+
+    public AddressForm FormModel { get; set; } = new AddressForm();
+    public string Username { get; set; } = "";
+    public Address UserAddress { get; set; } = new Address();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authenticationState.User;
+        if (user.Identity.IsAuthenticated)
+        {
+            Username = user.Identity.Name;
+            await LoadUserAddress(Username);
+            FormModel.UserAddress = UserAddress.UserAddress;
+            await LoadOrders();
+            await LoadFosters();
+            await LoadReviews();
+        }
+
+    }
+
+
+    private async Task LoadReviews()
+    {
+        try
+        {
+            // Make a GET request to your API endpoint
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Review/{Username}");
+            Console.WriteLine(responseStream);
+            Review review = await JsonSerializer.DeserializeAsync<Review>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            if (review != null)
+            {
+                temperament = review.Temperament ?? 0; // If Temperament is null, default to 0
+                attention = review.Attention ?? 0;     // If Attention is null, default to 0
+                activity = review.Activity ?? 0;       // If Activity is null, default to 0
+                enjoyment = review.Enjoyment ?? 0;     // If Enjoyment is null, default to 0
+                count = review.Count ?? 0;
+            }
+            else
+            {
+                Console.WriteLine("No review data found for user.");
+            }
+            return;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error loading products:", ex.Message);
+            temperament = 0;
+            attention = 0;
+            activity = 0;
+            enjoyment = 0;
+            count = 0;
+        }
+    }
+
+    private async Task LoadOrders()
+    {
+        try
+        {
+            // Make a GET request to your API endpoint
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Pet");
+            Console.WriteLine(responseStream);
+            List<Pet> pets = await JsonSerializer.DeserializeAsync<List<Pet>>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            List<Pet> my_orders = new List<Pet>();
+            foreach (Pet p in pets)
+            {
+                if (p.Username != "" && p.Username == Username)
+
+                {
+                    my_orders.Add(p);
+
+                    if (p.Comments != null && p.Comments.Count > 0)
+                    {
+                        Console.WriteLine("Pet ID: " + p.Id);
+                        foreach (string s in p.Comments)
+                        {
+                            if (s != null && s != "" && p.Name != null)
+                            {
+                                Console.WriteLine("Comment: " + s);
+                                reviews.Add((p.Name, s));
+                            }
+                        }
+                    }
+                }
+            }
+
+            orders = my_orders;
+            return;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error loading pets: " + ex.Message + ex.Source);
+            orders = new List<Pet>();
+            return;
+        }
+    }
+
+    private async Task LoadFosters()
+    {
+        try
+        {
+            // Make a GET request to your API endpoint
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Pet");
+            Console.WriteLine(responseStream);
+            List<Pet> pets = await JsonSerializer.DeserializeAsync<List<Pet>>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            List<Pet> my_fosters = new List<Pet>();
+            foreach (Pet p in pets)
+            {
+                if (p.Client != "" && p.Client == Username)
+                {
+                    my_fosters.Add(p);
+
+                }
+            }
+
+            fosters = my_fosters;
+            return;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error loading products:", ex.Message);
+            fosters = new List<Pet>();
+            return;
+        }
+    }
+
+
+    private async Task LoadUserAddress(string username)
+    {
+        try
+        {
+            var response = await Http.GetFromJsonAsync<Address>($"https://localhost:7128/api/Address/{username}");
+            if (response != null)
+            {
+                Console.WriteLine(response);
+                UserAddress = response;
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            UserAddress.UserAddress = "";
+        }
+
+    }
+
+    private async Task CancelPet(string username, string id)
+    {
+        try
+        {
+            // Make a GET request to your API endpoint
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Pet/{id}/{username}");
+            Console.WriteLine(responseStream);
+            Pet pet = await JsonSerializer.DeserializeAsync<Pet>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            pet.Client = "";
+            pet.Status = "Created";
+            var json_upd = System.Text.Json.JsonSerializer.Serialize(pet);
+            var content_upd = new StringContent(json_upd, null, "application/json");
+
+            var response_upd = await Http.PutAsync("api/Pet", content_upd);
+
+            if (response_upd.IsSuccessStatusCode)
+            {
+                var updatedPet = await response_upd.Content.ReadFromJsonAsync<Pet>();
+                Snackbar.Add("Animal reservation is cancelled!");
+                Console.WriteLine("Pet updated successfully!");
+                // Handle the response as needed, redirect or inform the user
+            }
+            else
+            {
+                Console.Error.WriteLine($"Failed to update pet: {response_upd.StatusCode}");
+                // Error handling
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error loading products:", ex.Message);
+            return;
+        }
+    }
+
+
+
+    protected async Task HandleFormSubmit()
+    {
+        var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authenticationState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            string username = user.Identity.Name;
+            string address = FormModel.UserAddress;
+
+            await AddAddress(username, address);
+
+            await LoadUserAddress(Username);
+            Snackbar.Add("Address Updated");
+        }
+        else
+        {
+            // Handle unauthenticated user
+            // You may want to redirect them to the login page or display an error message
+            Snackbar.Add("Failed Update");
+        }
+    }
+
+    protected async Task AddAddress(string username, string address)
+    {
+        var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:7128/api/Address");
+        var json = $"{{ \"username\": \"{username}\", \"UserAddress\": \"{address}\" }}";
+        request.Content = new StringContent(json, null, "application/json");
+
+        var response = await Http.SendAsync(request);
+
+        if (response.IsSuccessStatusCode)
+        {
+            var responseContent = await response.Content.ReadAsStringAsync();
+            Console.WriteLine(responseContent);
+        }
+        else
+        {
+            // Handle unsuccessful request
+            Console.WriteLine("Failed to add address. Status code: " + response.StatusCode);
+        }
+    }
+
+    private Task NavigatePost()
+    {
+        Console.WriteLine("Navigating to post pet");
+        NavigationManager.NavigateTo("/post-pet");
+        return Task.CompletedTask;
+    }
+
+    private void NavigateToReview(string username)
+    {
+        NavigationManager.NavigateTo($"/petreview/{username}");
+    }
+
+    private async Task DeletePet(string petId, string username, string address)
+    {
+        var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Pet/{petId}/{username}");
+        Pet pet = await JsonSerializer.DeserializeAsync<Pet>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+        if (pet.Status == "Created")
+        {
+            try
+            {
+                Console.WriteLine(username);
+                var request = new HttpRequestMessage(HttpMethod.Delete, $"https://localhost:7128/api/Pet/{petId}/{username}");
+                var response = await Http.SendAsync(request);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    // Reload the list of orders after deletion
+                    await LoadOrders();
+                    Snackbar.Add("Animal listing is deleted!");
+                }
+                else
+                {
+                    // Handle unsuccessful deletion
+                    Console.WriteLine("Failed to delete pet. Status code: " + response.StatusCode);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error deleting pet: " + ex.Message);
+
+            }
+        }
+        else
+        {
+            Console.WriteLine("animal is reserved and cannot be deleted");
+            Snackbar.Add("Animal is reserved and cannot be deleted.");
+        }
+
+
+
+    }
+
+    private void NavigateToReview(string username, string petId)
+    {
+        NavigationManager.NavigateTo($"/petreview/{username}/{petId}");
+    }
+
+}

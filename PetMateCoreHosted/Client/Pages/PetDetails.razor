@@ -1,0 +1,246 @@
+
+@page "/pet-details/{PetId}/{Username}"
+@using Amazon.DynamoDBv2.DataModel
+@using System.Text.Json
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@attribute [Authorize]
+@inject ISnackbar Snackbar
+
+<div class="container">
+    <div class="my-4">
+        <button class="btn btn-secondary" @onclick="ReturnHome">Back</button>
+        <h3 class="my-3">PET DETAILS</h3>
+    </div>
+
+    @if (pet == null)
+    {
+        <p>
+            <div style="text-align: center; align-content: center; margin-top: 50px;">
+                <img src="DogRunning2.gif" alt="Loading...">
+                <header>Loading...</header>
+            </div>
+        </p>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="@pet.PhotoUrl" class="card-img-top" alt="Pet Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Pet Details</h5>
+                        <p class="card-text"><strong>Owner:</strong> @pet.Username</p>
+                        <p class="card-text"><strong>Name:</strong> @pet.Name</p>
+                        <p class="card-text"><strong>Species:</strong> @pet.Species</p>
+                        @{
+                            DateTime startDate = DateTime.Parse(pet.StartDate);
+                            DateTime endDate = DateTime.Parse(pet.EndDate);
+                        }
+                        <p class="card-text"><strong>Start Date:</strong> @startDate.ToShortDateString()</p>
+                        <p class="card-text"><strong>End Date:</strong> @endDate.ToShortDateString()</p>
+                        <p class="card-text"><strong>Price:</strong> $@pet.Price</p>
+                        <p class="card-text"><strong>Address:</strong> @pet.Address</p>
+                        <p class="card-text"><strong>Description:</strong> @pet.Description</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <button class="btn btn-primary" @onclick="StartChat">Contact Owner</button>
+                        <button class="btn btn-success" @onclick="BookPet">Book</button>
+                    </div>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Reviews</h5>
+                        @if (filteredReviews.Count == 0)
+                        {
+                            <p>No reviews available for this pet.</p>
+                        }
+                        else
+                        {
+                            @foreach (var review in filteredReviews)
+                            {
+                                <div class="mb-3">
+                                    <p><strong>Temperament:</strong> <SfRating @bind-Value="review.Temperament" Precision="PrecisionType.Half" ReadOnly="true" CssClass="text-warning"></SfRating></p>
+                                    <p><strong>Attention:</strong> <SfRating @bind-Value="review.Attention" Precision="PrecisionType.Half" ReadOnly="true" CssClass="text-warning"></SfRating></p>
+                                    <p><strong>Activity:</strong> <SfRating @bind-Value="review.Activity" Precision="PrecisionType.Half" ReadOnly="true" CssClass="text-warning"></SfRating></p>
+                                    <p><strong>Enjoyment:</strong> <SfRating @bind-Value="review.Enjoyment" Precision="PrecisionType.Half" ReadOnly="true" CssClass="text-warning"></SfRating></p>
+                                    <p>
+                                        <strong>Comment:</strong>
+                                        @foreach (var comment in comments)
+                                        {
+                                            <span style="margin-bottom: 10px; display: block;">@comment</span>// Adds margin below each comment
+                                        }
+                                    </p>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+
+
+    [Parameter]
+    public string PetId { get; set; }
+
+    [Parameter]
+    public string Username { get; set; }
+
+    private Pet pet;
+
+    private List<Review> reviews = new List<Review>();
+    private List<Review> filteredReviews = new List<Review>();
+
+    public class Pet
+    {
+        [DynamoDBHashKey("id")]
+        public string? Id { get; set; }
+
+        [DynamoDBRangeKey("username")]
+        public string? Username { get; set; }
+
+        [DynamoDBProperty("name")]
+        public string? Name { get; set; }
+
+        [DynamoDBProperty("species")]
+        public string? Species { get; set; }
+
+        [DynamoDBProperty("description")]
+        public string? Description { get; set; }
+
+        [DynamoDBProperty("address")]
+        public string? Address { get; set; }
+
+        [DynamoDBProperty("photoUrl")]
+        public string? PhotoUrl { get; set; }
+
+        [DynamoDBProperty("startDate")]
+        public string? StartDate { get; set; }
+
+        [DynamoDBProperty("endDate")]
+        public string? EndDate { get; set; }
+
+        [DynamoDBProperty("price")]
+        public string? Price { get; set; }
+
+        [DynamoDBProperty("price_id")]
+        public string? PriceId { get; set; }
+
+        [DynamoDBProperty("status")]
+        public string? Status { get; set; } //Created -> Payment -> Reserved -> Fulfilled
+
+        [DynamoDBProperty("client")]
+        public string? Client { get; set; }
+
+        [DynamoDBProperty("comments")]
+        public List<string>? Comments { get; set; }
+    }
+
+
+    public class Review
+    {
+        [DynamoDBProperty("username")]
+        public string Username { get; set; }
+
+        [DynamoDBProperty("temperament")]
+        public double Temperament { get; set; }
+
+        [DynamoDBProperty("attention")]
+        public double Attention { get; set; }
+
+        [DynamoDBProperty("activity")]
+        public double Activity { get; set; }
+
+        [DynamoDBProperty("enjoyment")]
+        public double Enjoyment { get; set; }
+
+        [DynamoDBProperty("comment")]
+        public string Comment { get; set; }
+    }
+
+    protected override async Task OnInitializedAsync()
+
+    {
+        await LoadPetDetails();
+        await LoadReviews();
+    }
+
+    private List<String> comments = new List<String>();
+
+    private async Task LoadPetDetails()
+    {
+        try
+        {
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Pet/{PetId}/{Username}");
+            pet = await JsonSerializer.DeserializeAsync<Pet>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            if (pet.Comments != null)
+            {
+                comments = new List<string>(pet.Comments);
+            }
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error loading pet details:", ex.Message);
+            pet = null;
+        }
+    }
+
+    private async Task LoadReviews()
+    {
+        try
+        {
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Review");
+            var allReviews = await JsonSerializer.DeserializeAsync<List<Review>>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+            // Filter reviews based on the pet's username
+            filteredReviews = allReviews.Where(r => r.Username == pet.Username).ToList();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error loading reviews:", ex.Message);
+            filteredReviews = new List<Review>();
+        }
+    }
+
+    private Task ReturnHome()
+    {
+        NavigationManager.NavigateTo("/");
+        return Task.CompletedTask;
+    }
+
+    private Task StartChat()
+    {
+        NavigationManager.NavigateTo($"/chat");
+        return Task.CompletedTask;
+    }
+
+    private async Task BookPet()
+    {
+        var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authenticationState.User;
+        var username = user.Identity.Name;
+        if (username != pet.Username)
+        {
+            NavigationManager.NavigateTo($"/pet-reservation/{pet.Id}/{pet.Username}");
+        }
+        else
+        {
+            Snackbar.Add("You cannot book your own pet!");
+        }
+
+    }
+}

@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{E770FFB8-FF3A-47B8-8F4F-D6D442064C40}|Default" GitUserInfo="UsingGIT">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PetMateCoreHosted/Client/Pages/PetDetails.razor">
+    <Files>
+      <File FileName="PetMateCoreHosted/Client/Pages/Profile.razor" />
+      <File FileName="PetMateCoreHosted/Server/Models/Pet.cs" />
+      <File FileName="PetMateCoreHosted/Client/Pages/Success.razor" />
+      <File FileName="PetMateCoreHosted/Client/Pages/UserReview.razor" />
+      <File FileName="PetMateCoreHosted/Server/Controllers/ReviewController.cs" />
+      <File FileName="PetMateCoreHosted/Client/Pages/AddPet.razor" />
+      <File FileName="PetMateCoreHosted/Client/PetForm.cs" />
+      <File FileName="PetMateCoreHosted/Server/Controllers/PetController.cs" />
+      <File FileName="PetMateCoreHosted/Client/Pages/PetReservation.razor" />
+      <File FileName="PetMateCoreHosted/Client/Pages/Chat.razor" />
+      <File FileName="PetMateCoreHosted/Server/appsettings.json" />
+      <File FileName="PetMateCoreHosted/Client/Pages/PetDetails.razor" Line="69" Column="69" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PetMateCoreHosted" expanded="True">
+            <Node name="PetMateCoreHosted.Client" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+            <Node name="PetMateCoreHosted.Server" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Client/Pages/PetReservation.razor" relfile="PetMateCoreHosted/Client/Pages/PetReservation.razor" line="139" column="1" />
+      <Breakpoint enabled="false" file="/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/Controllers/PetController.cs" relfile="PetMateCoreHosted/Server/Controllers/PetController.cs" line="83" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PetMateCoreHosted.Server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>

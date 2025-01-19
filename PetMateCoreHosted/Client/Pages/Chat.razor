@@ -1,0 +1,419 @@
+﻿@page "/chat"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager Navigation
+@implements IAsyncDisposable
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@inject HttpClient Http
+@attribute [Authorize]
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using Amazon.DynamoDBv2.DataModel;
+@using System.Text.Json;
+@inject IJSRuntime JSRuntime
+
+
+<PageTitle>Chat</PageTitle>
+
+
+@if (users == null)
+{
+    <div style="text-align: center; align-content: center; margin-top: 50px;">
+        <img src="DogRunning2.gif" alt="Loading...">
+        <header>Loading...</header>
+    </div>
+}
+else
+{
+    <div class="tables-container">
+        <div class="table-container-1">
+
+
+            <h3>Users</h3>
+            @foreach (var user in users)
+            {
+                if (user.Username != Username)
+                {
+                    <div class="name" style="border: thin solid; margin: 10px" @onclick="() => RowClicked(user.Username)">
+                        <div>@user.Username</div>
+                    </div>
+                }
+            }
+            <hr />
+            @foreach (var message in receivedMessages)
+            {
+                <div class="name" style="border: thin solid; margin: 10px" @onclick="() => RowClicked(message)">
+                    <div>@message</div>
+                </div>
+            }
+        </div>
+
+
+        <div class="table-container-2">
+            <h3>@contact</h3>
+            <div class="messages">
+
+                @if (messagesString == null)
+                {
+                    // Handle case where messagesString is null
+                }
+                else
+                {
+                    <div class="messages" id="messagesContainer">
+                        @foreach (var message in messagesString)
+                        {
+                            @if (message.FromUser == contact)
+                            {
+                                <div style="display:flex;">
+                                    <div style="display: inline-block; background-color: #92C17A; color: black; border-radius: 10px; padding: 10px; max-width: 60%; text-align: justify ">
+                                        @message.Content
+                                    </div>
+                                </div>
+                                <div style="display: flex; justify-content: flex-start;">
+                                    <div style="display:flex; font-size: 10px; color: gray; justify-content: flex-start">
+                                        @message.Timestamp.ToString("HH:mm")
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <div style="display: flex; justify-content: flex-end; margin-right:10px">
+                                    <div style="display: inline-block; background-color: #609EA0; color: white; border-radius: 10px; padding: 10px; max-width: 60%; text-align: justify">
+                                        @message.Content
+                                    </div>
+                                </div>
+                                <div style="display: flex; justify-content: flex-end; margin-right: 10px">
+                                    <div style="margin-left: 5px; font-size: 10px; color: gray;">
+                                        @message.Timestamp.ToString("HH:mm")
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 30px; text-align:right;">
+        <EditForm Model="FormModel" OnSubmit="Send">
+            Message: <InputText @bind-Value="FormModel.Content" />
+            <button class="send">Send</button>
+        </EditForm>
+    </div>
+    <style>
+        .tables-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+        }
+
+        .table-container-1 {
+            margin-right: 20px;
+            flex: 1;
+            overflow-y: auto;
+            height: 500px;
+        }
+
+        .table-container-2 {
+            margin-right: 20px;
+            flex: 1;
+            height: 500px;
+        }
+
+        .messages {
+            overflow-y: auto;
+            height: 490px;
+        }
+
+        .name {
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+            .name:hover {
+                transform: translateY(-5px);
+                background-color: rgb(192,192,192,0.1);
+            }
+
+        .send {
+            border: 1px solid black;
+            background-color: #609EA0;
+            border-radius: 10px;
+            color: white;
+            padding: 5px;
+        }
+    </style>
+
+
+
+    @code {
+        string contact;
+
+        private string selectedRowText;
+        private Timer _timer;
+        // Method to handle row click
+        private async Task RowClicked(string text)
+        {
+            messagesString.Clear();
+            oldMessagesString.Clear();
+            selectedRowText = text;
+            Console.WriteLine(selectedRowText);
+
+            await LoadMessages();
+            // You can perform further actions here if needed
+        }
+
+        public MessageForm FormModel { get; set; } = new();
+
+        // post request in messages Dynamo DB table, stores user message
+        protected async Task CreateMessage(string fromuser, string timestamp, string touser, string content_)
+        {
+            var client = new HttpClient();
+            // posting into API endpoint
+            var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:7128/api/Message");
+            // format json using fields as payload into post request
+            string json = $"{{\n  \"fromuser\": \"{fromuser}\",\n  \"timestamp\": \"{timestamp}\" , \n  \"touser\": \"{touser}\",\n  \"content\": \"{content_}\"}}";
+            var content = new StringContent(json, null, "application/json");
+            request.Content = content;
+            // sends asynch request, awaits success
+            var response = await client.SendAsync(request);
+            response.EnsureSuccessStatusCode();
+            Console.WriteLine(await response.Content.ReadAsStringAsync());
+        }
+
+        private HubConnection? hubConnection;
+        private List<string> messages = new List<string>();
+        private string? userInput;
+        private string? messageInput;
+
+        public string Username { get; set; } = "";
+
+        protected override async Task OnInitializedAsync()
+        {
+            var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            var user = authenticationState.User;
+            string fromuser = user.Identity.Name;
+
+            if (user.Identity.IsAuthenticated)
+            {
+                Username = user.Identity.Name;
+            }
+
+            // timer to fetch messages in real time 
+            _timer = new Timer(async _ =>
+            {
+                await LoadMessages();
+                StateHasChanged(); // Update the UI
+            }, null, TimeSpan.Zero, TimeSpan.FromSeconds(5));
+
+            await LoadUsers();
+            await LoadReceivedMessages();
+
+            // hubConnection to send messages in real time across server 
+            hubConnection = new HubConnectionBuilder()
+            .WithUrl(Navigation.ToAbsoluteUri("/chathub"))
+            .Build();
+
+            hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+            {
+                var encodedMsg = $"{message}";
+                // var encodedMsg = $"{FormModel.FromUser}: {FormModel.Content}";
+                messages.Add(encodedMsg);
+                // oldMessagesString.Add(encodedMsg);
+
+                Console.WriteLine("these are the messages: ", messages);
+                InvokeAsync(StateHasChanged);
+            });
+
+            await hubConnection.StartAsync();
+        }
+
+        // function to send another user a message 
+        private async Task Send()
+        {
+            if (contact == null)
+            {
+                return;
+            }
+            var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            var user = authenticationState.User;
+
+            if (hubConnection is not null)
+            {
+                string fromuser = user.Identity.Name;
+                string timestamp = DateTime.Now.ToString();
+                string touser = selectedRowText;
+                string content = FormModel.Content;
+                await CreateMessage(fromuser, timestamp, touser, content);
+
+
+                await hubConnection.SendAsync("SendMessage", FormModel.FromUser, FormModel.Content);
+                await Task.Delay(1000);
+                await LoadMessages();
+                FormModel.Content = "";
+            }
+        }
+
+        public bool IsConnected =>
+        hubConnection?.State == HubConnectionState.Connected;
+
+        public async ValueTask DisposeAsync()
+        {
+            if (hubConnection is not null)
+            {
+                await hubConnection.DisposeAsync();
+            }
+        }
+
+
+
+        private List<Address> users;
+        List<string> usersString = new List<string>();
+        public class Address
+        {
+            [DynamoDBHashKey("username")]
+            public string? Username { get; set; }
+            [DynamoDBProperty("address")]
+            public string? UserAddress { get; set; }
+        }
+
+        // obtains all users that have posted a pet, so you can contact any of them
+        private async Task LoadUsers()
+        {
+            try
+            {
+                // Make a GET request to your API endpoint
+                var responseStream = await Http.GetStreamAsync("https://localhost:7128/api/Address");
+                Console.WriteLine(responseStream);
+                // Deserialize the JSON response to a list of Product objects
+                users = await JsonSerializer.DeserializeAsync<List<Address>>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+                foreach (var address in users)
+                {
+                    if (!string.IsNullOrEmpty(address.Username))
+                    {
+                        usersString.Add(address.Username);
+                    }
+                }
+
+                foreach (var user in usersString)
+                {
+                    Console.WriteLine(user);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error loading products:", ex.Message);
+                // users = null;
+            }
+        }
+        private List<Message> messageList;
+        private List<string> receivedMessages = new List<string>();
+
+
+        // retrieves all messages between two given users from DynamoDB table
+        private async Task LoadReceivedMessages()
+        {
+            var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            var user = authenticationState.User;
+            try
+            {
+                // Make a GET request to your API endpoint
+                var responseStream = await Http.GetStreamAsync("https://localhost:7128/api/Message");
+                Console.WriteLine(responseStream);
+                // Deserialize the JSON response to a list of Product objects
+                messageList = await JsonSerializer.DeserializeAsync<List<Message>>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                foreach (Message message in messageList)
+                {
+                    if (message.ToUser == user.Identity.Name && !usersString.Contains(message.FromUser) && !receivedMessages.Contains(message.FromUser))
+                    {
+                        receivedMessages.Add(message.FromUser);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error loading the receieved messages:", ex.Message);
+            }
+
+        }
+        private List<Message> messagesBetweenUsers;
+
+        private List<string> oldMessagesString = new List<string>(); // Initialize the list
+
+        private List<(string FromUser, DateTime Timestamp, string Content)> messagesString = new List<(string FromUser, DateTime Timestamp, string Content)>();
+
+
+        public class Message
+        {
+            [DynamoDBHashKey("fromuser")]
+            public string? FromUser { get; set; }
+            [DynamoDBRangeKey("timestamp")]
+            public string? Timestamp { get; set; }
+            [DynamoDBProperty("touser")]
+            public string? ToUser { get; set; }
+            [DynamoDBProperty("content")]
+            public string? Content { get; set; }
+        }
+
+
+
+
+        // function to retrieve all messages and load them into tables 
+
+        private async Task LoadMessages()
+        {
+            var authenticationState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            var user = authenticationState.User;
+            messagesString.Clear();
+            oldMessagesString.Clear();
+            try
+            {
+                contact = selectedRowText;
+                string fromuser = user.Identity.Name;
+                string touser = selectedRowText;
+                // Make a GET request to your API endpoint
+                var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Message");
+                Console.WriteLine(responseStream);
+                // Deserialize the JSON response to a list of Product objects
+                messagesBetweenUsers = await JsonSerializer.DeserializeAsync<List<Message>>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                foreach (Message message in messagesBetweenUsers)
+                {
+                    if (message.FromUser == user.Identity.Name && message.ToUser == selectedRowText ||
+                    message.ToUser == user.Identity.Name && message.FromUser == selectedRowText)
+                    {
+                        Console.WriteLine("we are in the try block printing content");
+                        Console.WriteLine(message.Content);
+                        Console.WriteLine(message.FromUser);
+                        DateTime timestamp = DateTime.Parse(message.Timestamp);
+                        if (message.Content == "" || message.Content == null)
+                        {
+                            Console.WriteLine("Message", message.Content, "is null");
+                            continue;
+                        }
+                        messagesString.Add((message.FromUser, timestamp, message.Content)); // Use Add method to add elements to the list
+                        Console.WriteLine("the messages string: " + string.Join(", ", messagesString)); // Join the elements for better output
+                    }
+                }
+                messagesString = messagesString.OrderBy(message => message.Item2).ToList();
+                ScrollToBottom();
+                Console.WriteLine("The messages string list: " + string.Join(", ", messagesString)); // Join the elements for better output
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error loading messages:", ex.Message);
+                messagesBetweenUsers = null;
+            }
+        }
+        private async Task ScrollToBottom()
+        {
+            Console.WriteLine("Calling scroll to bottom");
+            await JSRuntime.InvokeVoidAsync("scrollToBottom");
+        }
+    }
+
+
+    }

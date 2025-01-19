@@ -1,0 +1,14 @@
+﻿@page "/authentication/{action}"
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+<RemoteAuthenticatorView Action="@Action" />
+
+<div style="text-align: center; align-content: center; margin-top: 50px;">
+    <img src="DogRunning2.gif" alt="Loading...">
+    <header>Loading...</header>
+</div>
+
+
+@code{
+    [Parameter] public string? Action { get; set; }
+}
+

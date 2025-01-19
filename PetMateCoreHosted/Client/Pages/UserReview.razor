@@ -1,0 +1,218 @@
+@page "/petreview/{Username}/{PetId}"
+@using Syncfusion.Blazor.Inputs
+@using System.Net.Http
+@using System.Text.Json
+@using System.Collections.Generic
+@using System
+@inject HttpClient Http
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using Amazon.DynamoDBv2.DataModel
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager NavigationManager
+
+<button style="align-self: start; border: solid 1px; padding: 7px; border-radius: 5px;" @onclick="ReturnProfile">Back</button>
+<br/>
+<h1>Pet Review Form</h1>
+<form>
+    <label for="temperament">Temperament</label>
+    <SfRating id="temperament" @bind-Value="temperament" Precision="PrecisionType.Half"></SfRating>
+</form>
+
+<form>
+    <label for="attention">Attention</label>
+    <SfRating id="attention" @bind-Value="attention" Precision="PrecisionType.Half"></SfRating>
+</form>
+<form>
+    <label for="activity">Activity</label>
+    <SfRating id="activity" @bind-Value="activity" Precision="PrecisionType.Half"></SfRating>
+</form>
+<form>
+    <label for="enjoyment">Enjoyment</label>
+    <SfRating id="enjoyment" @bind-Value="enjoyment" Precision="PrecisionType.Half"></SfRating>
+</form>
+<br/>
+<br/>
+<label for="comment">Comment</label>
+<br/>
+<textarea id="comment" @bind="comment" class="form-control"></textarea>
+<br/>
+<button style="border: solid 1px; padding: 7px; border-radius: 5px;" @onclick="submit">Submit</button>
+
+<h3>@submission</h3>
+
+@code {
+
+    [Parameter]
+    public string Username { get; set; }
+
+    [Parameter]
+    public string PetId { get; set; }
+
+    public class Review
+    {
+        [DynamoDBHashKey("username")]
+        public string? Username { get; set; }
+
+        [DynamoDBProperty("temperament")]
+        public double? Temperament { get; set; } = 0;
+
+        [DynamoDBProperty("attention")]
+        public double? Attention { get; set; }
+
+        [DynamoDBProperty("activity")]
+        public double? Activity { get; set; }
+
+        [DynamoDBProperty("enjoyment")]
+        public double? Enjoyment { get; set; }
+
+        [DynamoDBProperty("count")]
+        public double? Count { get; set; } = 0;
+
+        [DynamoDBProperty("comment")]
+        public string? Comment { get; set; }
+    }
+
+    public class Pet
+    {
+        [DynamoDBHashKey("id")]
+        public string? Id { get; set; }
+
+        [DynamoDBRangeKey("username")]
+        public string? Username { get; set; }
+
+        [DynamoDBProperty("name")]
+        public string? Name { get; set; }
+
+        [DynamoDBProperty("species")]
+        public string? Species { get; set; }
+
+        [DynamoDBProperty("description")]
+        public string? Description { get; set; }
+
+        [DynamoDBProperty("address")]
+        public string? Address { get; set; }
+
+        [DynamoDBProperty("photoUrl")]
+        public string? PhotoUrl { get; set; }
+
+        [DynamoDBProperty("startDate")]
+        public string? StartDate { get; set; }
+
+        [DynamoDBProperty("endDate")]
+        public string? EndDate { get; set; }
+
+        [DynamoDBProperty("price")]
+        public string? Price { get; set; }
+
+        [DynamoDBProperty("price_id")]
+        public string? PriceId { get; set; }
+
+        [DynamoDBProperty("status")]
+        public string? Status { get; set; } //Created -> Payment -> Reserved -> Fulfilled
+
+        [DynamoDBProperty("client")]
+        public string? Client { get; set; }
+
+        [DynamoDBProperty("comments")]
+        public List<string>? Comments { get; set; }
+    }
+
+
+    double temperament;
+    double attention;
+    double activity;
+    double enjoyment;
+    string comment;
+    string submission = "";
+
+    private async Task submit()
+    {
+        try
+        {
+            var responseStream = await Http.GetStreamAsync($"https://localhost:7128/api/Review/{Username}");
+            Review reviewForUser = await JsonSerializer.DeserializeAsync<Review>(responseStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+            double? finalCount = reviewForUser.Count + 1;
+            double? finalTemperament = (reviewForUser.Temperament * reviewForUser.Count + temperament) / finalCount;
+            double? finalAttention = (reviewForUser.Attention * reviewForUser.Count + attention) / finalCount;
+            double? finalActivity = (reviewForUser.Activity * reviewForUser.Count + activity) / finalCount;
+            double? finalEnjoyment = (reviewForUser.Enjoyment * reviewForUser.Count + enjoyment) / finalCount;
+
+            string copy = String.Copy(comment);
+
+            AddReview(Username, finalTemperament, finalAttention, finalActivity, finalEnjoyment, finalCount, comment);
+
+            var responseStream2 = await Http.GetStreamAsync($"https://localhost:7128/api/Pet/{PetId}/{Username}");
+            Pet reviewedPet = await JsonSerializer.DeserializeAsync<Pet>(responseStream2, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+            if(reviewedPet.Comments == null || reviewedPet.Comments.Count == 0)
+            {
+                reviewedPet.Comments = new List<string>();
+            }
+            if (copy != null)
+            {
+                reviewedPet.Comments.Add(copy);
+            }
+
+
+            var json_upd = System.Text.Json.JsonSerializer.Serialize(reviewedPet);
+            var content_upd = new StringContent(json_upd, null, "application/json");
+
+            var response_upd = await Http.PutAsync("api/Pet", content_upd);
+
+            if (response_upd.IsSuccessStatusCode)
+            {
+                var updatedPet = await response_upd.Content.ReadFromJsonAsync<Pet>();
+                Console.WriteLine("Pet updated successfully!");
+                // Handle the response as needed, redirect or inform the user
+            }
+            else
+            {
+                Console.Error.WriteLine($"Failed to update pet: {response_upd.StatusCode}");
+                // Error handling
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Exception adding review: " + ex.Message);
+            await AddReview(Username, temperament, attention, activity, enjoyment, 1, comment);
+        }
+    }
+
+    private async Task AddReview(string username, double? temperament, double? attention, double? activity, double? enjoyment, double? count, string comment)
+    {
+        try
+        {
+            var request = new HttpRequestMessage(HttpMethod.Post, $"https://localhost:7128/api/Review");
+
+            // Constructing the JSON payload using string interpolation
+            string json = $"{{\"username\":\"{username}\",\"temperament\":{temperament},\"attention\":{attention},\"activity\":{activity},\"enjoyment\":{enjoyment},\"count\":{count},\"comment\":\"{comment}\"}}";
+
+            request.Content = new StringContent(json, null, "application/json");
+
+            var response = await Http.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                submission = "Review added successfully";
+            }
+            else
+            {
+                submission = "Failed to add review. Status code: " + response.StatusCode;
+            }
+        }
+        catch (Exception ex)
+        {
+            submission = "Error: " + ex.Message;
+        }
+    }
+
+
+    private Task ReturnProfile()
+    {
+        NavigationManager.NavigateTo($"/profile");
+        return Task.CompletedTask;
+    }
+
+    }

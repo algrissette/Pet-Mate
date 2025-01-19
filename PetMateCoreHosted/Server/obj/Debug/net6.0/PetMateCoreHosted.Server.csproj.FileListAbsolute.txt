@@ -1,0 +1,1060 @@
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.staticwebassets.runtime.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.Development.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.staticwebassets.runtime.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/app.db
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.deps.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.runtimeconfig.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/AutoMapper.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Core.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Identity.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.AspNetIdentity.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.Storage.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.Storage.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Humanizer.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/IdentityModel.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/browser-wasm/nativeassets/net6.0/e_sqlite3.a
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.pdb
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.AssemblyReference.cache
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfoInputs.cache
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfo.cs
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CoreCompileInputs.cache
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cs
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cache
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cache
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cs
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.PetMateCoreHosted.Server.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.build.PetMateCoreHosted.Server.props
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.PetMateCoreHosted.Server.props
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.PetMateCoreHosted.Server.props
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.build.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.development.json
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/scopedcss/bundle/PetMateCoreHosted.Server.styles.css
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/refint/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.genruntimeconfig.cache
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/ref/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Core.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Extensions.NETCore.Setup.dll
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CopyComplete
+/Users/muntasirmeah/Projects/PetMateCoreHosted/PetMateCoreHosted/Server/bin/Debug/net6.0/Stripe.net.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.Development.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/app.db
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.staticwebassets.runtime.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.staticwebassets.runtime.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.deps.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.runtimeconfig.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AutoMapper.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Core.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Extensions.NETCore.Setup.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Core.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Identity.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.AspNetIdentity.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.Storage.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.Storage.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Humanizer.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/IdentityModel.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Stripe.net.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Data.SqlClient.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm64/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/browser-wasm/nativeassets/net6.0/e_sqlite3.a
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.pdb
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.AssemblyReference.cache
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfoInputs.cache
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfo.cs
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CoreCompileInputs.cache
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cs
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cache
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cache
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cs
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.PetMateCoreHosted.Server.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.build.PetMateCoreHosted.Server.props
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.PetMateCoreHosted.Server.props
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.PetMateCoreHosted.Server.props
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.build.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.development.json
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/scopedcss/bundle/PetMateCoreHosted.Server.styles.css
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CopyComplete
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/refint/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.genruntimeconfig.cache
+/Users/muntasirmeah/Documents/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/ref/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.Development.json
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/app.db
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.staticwebassets.runtime.json
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.staticwebassets.runtime.json
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.deps.json
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.runtimeconfig.json
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AutoMapper.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Core.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Extensions.NETCore.Setup.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Core.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Identity.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.AspNetIdentity.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.Storage.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.Storage.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Humanizer.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/IdentityModel.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Stripe.net.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/browser-wasm/nativeassets/net6.0/e_sqlite3.a
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.pdb
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.AssemblyReference.cache
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfoInputs.cache
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfo.cs
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CoreCompileInputs.cache
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cs
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cache
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cache
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cs
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.PetMateCoreHosted.Server.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.build.PetMateCoreHosted.Server.props
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.PetMateCoreHosted.Server.props
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.PetMateCoreHosted.Server.props
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.build.json
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.development.json
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/scopedcss/bundle/PetMateCoreHosted.Server.styles.css
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/refint/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.genruntimeconfig.cache
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/ref/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.Development.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/app.db
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.staticwebassets.runtime.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.staticwebassets.runtime.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.deps.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.runtimeconfig.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AutoMapper.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Core.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Extensions.NETCore.Setup.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Core.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Identity.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.AspNetIdentity.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.Storage.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.Storage.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Humanizer.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/IdentityModel.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Stripe.net.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Data.SqlClient.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm64/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/browser-wasm/nativeassets/net6.0/e_sqlite3.a
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.pdb
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.AssemblyReference.cache
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfoInputs.cache
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfo.cs
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CoreCompileInputs.cache
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cs
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cache
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cache
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cs
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.PetMateCoreHosted.Server.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.build.PetMateCoreHosted.Server.props
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.PetMateCoreHosted.Server.props
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.PetMateCoreHosted.Server.props
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.build.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.development.json
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/scopedcss/bundle/PetMateCoreHosted.Server.styles.css
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CopyComplete
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/refint/PetMateCoreHosted.Server.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.genruntimeconfig.cache
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/ref/PetMateCoreHosted.Server.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Buttons.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Core.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Data.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Inputs.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Popups.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Spinner.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.SplitButtons.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Licensing.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Text.Json.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Buttons.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Core.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Data.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Inputs.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Popups.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Spinner.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.SplitButtons.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Licensing.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Text.Json.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Themes.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CopyComplete
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.S3.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.Development.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/app.db
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.staticwebassets.runtime.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.staticwebassets.runtime.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.deps.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.runtimeconfig.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AutoMapper.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Core.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Extensions.NETCore.Setup.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.S3.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Core.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Identity.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.AspNetIdentity.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.Storage.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.Storage.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Humanizer.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/IdentityModel.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Stripe.net.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Buttons.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Core.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Data.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Inputs.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Popups.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Spinner.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.SplitButtons.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Themes.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Licensing.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Data.SqlClient.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Text.Json.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm64/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/browser-wasm/nativeassets/net6.0/e_sqlite3.a
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.pdb
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.AssemblyReference.cache
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfoInputs.cache
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfo.cs
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CoreCompileInputs.cache
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cs
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cache
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cache
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cs
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.PetMateCoreHosted.Server.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.build.PetMateCoreHosted.Server.props
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.PetMateCoreHosted.Server.props
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.PetMateCoreHosted.Server.props
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.build.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.development.json
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/scopedcss/bundle/PetMateCoreHosted.Server.styles.css
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CopyComplete
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/refint/PetMateCoreHosted.Server.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.genruntimeconfig.cache
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/ref/PetMateCoreHosted.Server.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.Development.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/appsettings.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/app.db
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.staticwebassets.runtime.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.staticwebassets.runtime.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.deps.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.runtimeconfig.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AutoMapper.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Core.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.Extensions.NETCore.Setup.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.S3.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Core.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Azure.Identity.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.AspNetIdentity.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.Storage.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Duende.IdentityServer.Storage.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Humanizer.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/IdentityModel.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Stripe.net.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Buttons.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Core.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Data.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Inputs.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Popups.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Spinner.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.SplitButtons.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Themes.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Licensing.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Data.SqlClient.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Text.Json.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-arm64/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/browser-wasm/nativeassets/net6.0/e_sqlite3.a
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Client.pdb
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/PetMateCoreHosted.Shared.pdb
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.AssemblyReference.cache
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfoInputs.cache
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.AssemblyInfo.cs
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CoreCompileInputs.cache
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cs
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.MvcApplicationPartsAssemblyInfo.cache
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cache
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.RazorAssemblyInfo.cs
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.PetMateCoreHosted.Server.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.build.PetMateCoreHosted.Server.props
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.PetMateCoreHosted.Server.props
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.PetMateCoreHosted.Server.props
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.build.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/staticwebassets.development.json
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/scopedcss/bundle/PetMateCoreHosted.Server.styles.css
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.csproj.CopyComplete
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/refint/PetMateCoreHosted.Server.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.pdb
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/PetMateCoreHosted.Server.genruntimeconfig.cache
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/obj/Debug/net6.0/ref/PetMateCoreHosted.Server.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Cards.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Cards.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/AWSSDK.S3.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Cards.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Themes.dll
+/Users/muntasirmeah/Projects/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/MudBlazor.dll
+/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/MudBlazor.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/MudBlazor.dll
+/Users/nicolasrestrepo/Documents/University/Year 4/Spring/CS 392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/Syncfusion.Blazor.Cards.dll
+/Users/alexcho/Desktop/CS392/PetMate/PetMateCoreHosted/Server/bin/Debug/net6.0/MudBlazor.dll

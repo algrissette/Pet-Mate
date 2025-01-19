@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = PetMateCoreHosted.Client
+build_property.RootNamespace = PetMateCoreHosted.Client
+build_property.ProjectDir = /Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/AddPet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkUGV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/Authentication.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aGVudGljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/Cancel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FuY2VsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/ListPets.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlzdFBldHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/Map.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/Payment.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/PetDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGV0RGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/PetReservation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGV0UmVzZXJ2YXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/Success.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VjY2Vzcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Pages/UserReview.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlclJldmlldy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0xvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1JlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-13lum20uow
+
+[/Users/williamseong/Desktop/PetMate/PetMateCoreHosted/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qbs5fbvphy
